@@ -1,0 +1,18 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mock-comment": "启动一个 node 服务器,用于返回 mock 数据.",
+    "mock": "nodemon ./src/server.js 2618"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "mockjs": "^1.1.0",
+    "nodemon": "^2.0.12"
+  }
+}

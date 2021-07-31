@@ -1,0 +1,2417 @@
+{
+  "APPS": [
+    {
+      "url": "/apps/getAreaList",
+      "desc": "APPS-获取搜索条件中的区域列表",
+      "regex": true,
+      "method": "GET",
+      "req": {},
+      "mock": true,
+      "delay": 10000,
+      "res": {
+        "code": 200,
+        "msg": "Get device enabled chart data",
+        "data": [
+          {
+            "areaCode": 1,
+            "areaName": "All"
+          },
+          {
+            "areaCode": 2,
+            "areaName": "Area111"
+          },
+          {
+            "areaCode": 3,
+            "areaName": "Area2"
+          },
+          {
+            "areaCode": 4,
+            "areaName": "Area3"
+          },
+          {
+            "areaCode": 5,
+            "areaName": "Area4"
+          },
+          {
+            "areaCode": 6,
+            "areaName": "Area5"
+          },
+          {
+            "areaCode": 7,
+            "areaName": "Area6"
+          },
+          {
+            "areaCode": 8,
+            "areaName": "Area7"
+          },
+          {
+            "areaCode": 9,
+            "areaName": "Area8"
+          },
+          {
+            "areaCode": 10,
+            "areaName": "Area9"
+          },
+          {
+            "areaCode": 11,
+            "areaName": "Area10"
+          },
+          {
+            "areaCode": 12,
+            "areaName": "Area11"
+          },
+          {
+            "areaCode": 13,
+            "areaName": "Area12"
+          },
+          {
+            "areaCode": 14,
+            "areaName": "Area13"
+          },
+          {
+            "areaCode": 15,
+            "areaName": "Area14"
+          },
+          {
+            "areaCode": 16,
+            "areaName": "Area15"
+          },
+          {
+            "areaCode": 17,
+            "areaName": "Area16"
+          }
+        ]
+      }
+    },
+    {
+      "url": "/[^/]+/apps/versionAndChannel",
+      "desc": "apps-获取版本和渠道",
+      "regex": true,
+      "method": "GET",
+      "req": "",
+      "mock": true,
+      "delay": 1000,
+      "res": {
+        "code": 200,
+        "msg": "Get device enabled chart data",
+        "data": {
+          "version": [
+            {
+              "versionCode": 1,
+              "versionName": "All"
+            },
+            {
+              "versionCode": 2,
+              "versionName": "apps版本1"
+            },
+            {
+              "versionCode": 3,
+              "versionName": "apps版本2"
+            },
+            {
+              "versionCode": 4,
+              "versionName": "版本3"
+            }
+          ],
+          "channel": [
+            {
+              "channelCode": 1,
+              "channelName": "All"
+            },
+            {
+              "channelCode": 2,
+              "channelName": "apps渠道1"
+            },
+            {
+              "channelCode": 3,
+              "channelName": "apps渠道2"
+            },
+            {
+              "channelCode": 4,
+              "channelName": "apps渠道3"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "url": "/[^/]+/apps/singleVersionList",
+      "desc": "apps-获取版本",
+      "regex": true,
+      "method": "GET",
+      "req": "",
+      "mock": true,
+      "delay": 1000,
+      "res": {
+        "code": 200,
+        "msg": "Get device enabled chart data",
+        "data": {
+          "version": [
+            {
+              "versionCode": 1,
+              "versionName": "All"
+            },
+            {
+              "versionCode": 2,
+              "versionName": "apps版本1"
+            },
+            {
+              "versionCode": 3,
+              "versionName": "apps版本2"
+            },
+            {
+              "versionCode": 4,
+              "versionName": "版本3"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "url": "/[^/]+/apps/singleChannelList",
+      "desc": "apps - 获取渠道",
+      "regex": true,
+      "method": "GET",
+      "req": "",
+      "mock": true,
+      "delay": 1000,
+      "res": {
+        "code": 200,
+        "msg": "Get device enabled chart data",
+        "data": {
+          "channel": [
+            {
+              "channelCode": 1,
+              "channelName": "All"
+            },
+            {
+              "channelCode": 2,
+              "channelName": "apps渠道1"
+            },
+            {
+              "channelCode": 3,
+              "channelName": "apps渠道2"
+            },
+            {
+              "channelCode": 4,
+              "channelName": "apps渠道3"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "url": "/apps/getCountryList",
+      "desc": "APPS-获取APPS搜索条件中的国家列表",
+      "regex": true,
+      "method": "GET",
+      "req": {},
+      "mock": true,
+      "delay": 1000,
+      "res": {
+        "code": 200,
+        "msg": "Get device enabled chart data",
+        "data": [
+          [
+            "All",
+            "a1",
+            "a2",
+            "a3"
+          ],
+          [
+            "All",
+            "Country1.1",
+            "Country1.2",
+            "Country1.3"
+          ],
+          [
+            "All",
+            "Country2.1",
+            "Country2.2",
+            "Country2.3"
+          ],
+          [
+            "All",
+            "Country3.1",
+            "Country3.2",
+            "Country3.3"
+          ],
+          [
+            "All",
+            "Country4.1",
+            "Country4.2",
+            "Country4.3"
+          ],
+          [
+            "All",
+            "Country5.1",
+            "Country5.2",
+            "Country5.3"
+          ],
+          [
+            "All",
+            "Country6.1",
+            "Country6.2",
+            "Country6.3"
+          ],
+          [
+            "All",
+            "Country7.1",
+            "Country7.2",
+            "Country7.3"
+          ],
+          [
+            "All",
+            "Country8.1",
+            "Country8.2",
+            "Country8.3"
+          ],
+          [
+            "All",
+            "Country9.1",
+            "Country9.2",
+            "Country9.3"
+          ],
+          [
+            "All",
+            "Country10.1",
+            "Country10.2",
+            "Country10.3"
+          ],
+          [
+            "All",
+            "Country11.1",
+            "Country11.2",
+            "Country11.3"
+          ],
+          [
+            "All",
+            "Country12.1",
+            "Country12.2",
+            "Country12.3"
+          ],
+          [
+            "All",
+            "Country13.1",
+            "Country13.2",
+            "Country13.3"
+          ],
+          [
+            "All",
+            "Country14.1",
+            "Country14.2",
+            "Country14.3"
+          ],
+          [
+            "All",
+            "Country15.1",
+            "Country15.2",
+            "Country15.3"
+          ],
+          [
+            "All",
+            "Country16.1",
+            "Country16.2",
+            "Country16.3"
+          ],
+          [
+            "All",
+            "Country17.1",
+            "Country17.2",
+            "Country17.3"
+          ]
+        ]
+      }
+    },
+    {
+      "url": "/pjCodeapps/apps/detail",
+      "desc": "入口数据 - 详细入口数据 - 表格数据",
+      "regex": true,
+      "method": "GET",
+      "req": {
+        "date": "2016-10-10",
+        "period": "7/30/60"
+      },
+      "mock": true,
+      "delay": 1000,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data|7-60": [
+          {
+            "date": "@datetime('yyyy-MM-dd')",
+            "backendActivePerson": "@integer(0, 10)",
+            "frontendActivePerson": "@integer(0, 5)",
+            "frontendActiveCounting": "@integer(0, 4)",
+            "frontendActiveRatio": "@integer(0, 100)%",
+            "antivirusPermanentPerson": "@integer(0, 1)",
+            "antivirusPermanentCounting": "@integer(0, 1)",
+            "antivirusPermanentRatio": "@integer(0, 100)%",
+            "cpuCoolingPermanentPerson": "@integer(0, 2)",
+            "cpuCoolingPermanentCounting": "@integer(0, 2)",
+            "cpuCoolingPermanentRatio": "@integer(0, 100)%",
+            "accelaratePermanentPerson": "@integer(0, 3)",
+            "accelaratePermanentCounting": "@integer(0, 3)",
+            "accelaratePermanentRatio": "@integer(0, 100)%",
+            "cleaningPermanentPerson": "@integer(0, 4)",
+            "cleaningPermanentCounting": "@integer(0, 4)",
+            "cleaningPermanentRatio": "@integer(0, 100)%",
+            "pluginPermanentPerson": "@integer(0, 4)",
+            "pluginPermanentCounting": "@integer(0, 4)",
+            "pluginPermanentRatio": "@integer(0, 100)%",
+            "iconTaskManagerPerson": "@integer(0, 5)",
+            "iconTaskManagerCounting": "@integer(0, 4)",
+            "iconTaskManagerRatio": "@integer(0, 100)%",
+            "pushEntrancePerson": "@integer(0, 5)",
+            "pushEntranceCounting": "@integer(0, 4)",
+            "pushEntranceRatio": "@integer(0, 100)%",
+            "updateEnterPerson": "@integer(0, 5)",
+            "updateEnterCounting": "@integer(0, 4)",
+            "updateEnterRatio": "@integer(0, 100)%",
+            "antivirusMessagePerson": "@integer(0, 5)",
+            "antivirusMessageCounting": "@integer(0, 4)",
+            "antivirusMessageRatio": "@integer(0, 100)%",
+            "cleaningMessagePerson": "@integer(0, 5)",
+            "cleaningMessageCounting": "@integer(0, 4)",
+            "cleaningMessageRatio": "@integer(0, 100)%",
+            "accelarateMessagePerson": "@integer(0, 5)",
+            "accelarateMessageCounting": "@integer(0, 4)",
+            "accelarateMessageRatio": "@integer(0, 100)%",
+            "phoneManageMessagePerson": "@integer(0, 5)",
+            "phoneManageMessageCounting": "@integer(0, 4)",
+            "phoneManageMessageRatio": "@integer(0, 100)%",
+            "cpuCoolingMessagePerson": "@integer(0, 5)",
+            "cpuCoolingMessageCounting": "@integer(0, 4)",
+            "cpuCoolingMessageRatio": "@integer(0, 100)%",
+            "pluginMessagePerson": "@integer(0, 5)",
+            "pluginMessageCounting": "@integer(0, 4)",
+            "pluginMessageRatio": "@integer(0, 100)%",
+            "cleaningPopupPerson": "@integer(0, 5)",
+            "cleaningPopupCounting": "@integer(0, 4)",
+            "cleaningPopupRatio": "@integer(0, 100)%",
+            "accelaratePopupPerson": "@integer(0, 5)",
+            "accelaratePopupCounting": "@integer(0, 4)",
+            "accelaratePopupRatio": "@integer(0, 100)%",
+            "antivirusPopupPerson": "@integer(0, 5)",
+            "antivirusPopupCounting": "@integer(0, 4)",
+            "antivirusPopupRatio": "@integer(0, 100)%",
+            "UninstallationPopupPerson": "@integer(0, 5)",
+            "UninstallationPopupCounting": "@integer(0, 4)",
+            "UninstallationPopupRatio": "@integer(0, 100)%",
+            "pluginPopupPerson": "@integer(0, 5)",
+            "pluginPopupCounting": "@integer(0, 4)",
+            "pluginPopupRatio": "@integer(0, 100)%",
+            "cleaningToastPerson": "@integer(0, 5)",
+            "cleaningToastCounting": "@integer(0, 4)",
+            "cleaningToastRatio": "@integer(0, 100)%",
+            "accelarateToastPerson": "@integer(0, 5)",
+            "accelarateToastCounting": "@integer(0, 4)",
+            "accelarateToastRatio": "@integer(0, 100)%",
+            "cpuCoolingToastPerson": "@integer(0, 5)",
+            "cpuCoolingToastCounting": "@integer(0, 4)",
+            "cpuCoolingToastRatio": "@integer(0, 100)%",
+            "ManagementToastPerson": "@integer(0, 5)",
+            "ManagementToastCounting": "@integer(0, 4)",
+            "ManagementToastRatio": "@integer(0, 100)%"
+          }
+        ]
+      }
+    },
+    {
+      "url": "/pjCodeapps/apps/getEntranceList",
+      "desc": "入口数据 - 详细入口数据 - 其他入口数据列表",
+      "regex": true,
+      "method": "GET",
+      "req": {
+        "date": "2016-10-10"
+      },
+      "mock": true,
+      "delay": 1000,
+      "res": {
+        "code": 200,
+        "msg": "Get device enabled chart data",
+        "data": [
+          {
+            "entranceCode": 1,
+            "entranceName": "杀毒常驻通知栏",
+            "entranceAlter": "antivirusPermanent"
+          },
+          {
+            "entranceCode": 2,
+            "entranceName": "CPU降温常驻通知栏",
+            "entranceAlter": "cpuCoolingPermanent"
+          },
+          {
+            "entranceCode": 3,
+            "entranceName": "加速常驻通知栏",
+            "entranceAlter": "accelaratePermanent"
+          },
+          {
+            "entranceCode": 4,
+            "entranceName": "清理常驻通知栏",
+            "entranceAlter": "cleaningPermanent"
+          },
+          {
+            "entranceCode": 5,
+            "entranceName": "省电常驻通知栏",
+            "entranceAlter": "pluginPermanent"
+          },
+          {
+            "entranceCode": 6,
+            "entranceName": "桌面Icon++任务管理器",
+            "entranceAlter": "iconTaskManager"
+          },
+          {
+            "entranceCode": 7,
+            "entranceName": "push入口",
+            "entranceAlter": "pushEntrance"
+          },
+          {
+            "entranceCode": 8,
+            "entranceName": "通过update进入",
+            "entranceAlter": "updateEnter"
+          },
+          {
+            "entranceCode": 9,
+            "entranceName": "杀毒消息通知",
+            "entranceAlter": "antivirusMessage"
+          },
+          {
+            "entranceCode": 10,
+            "entranceName": "清理消息通知",
+            "entranceAlter": "cleaningMessage"
+          },
+          {
+            "entranceCode": 11,
+            "entranceName": "加速消息通知",
+            "entranceAlter": "accelarateMessage"
+          },
+          {
+            "entranceCode": 12,
+            "entranceName": "手机管理消息通知",
+            "entranceAlter": "phoneManageMessage"
+          },
+          {
+            "entranceCode": 13,
+            "entranceName": "降温消息通知",
+            "entranceAlter": "cpuCoolingMessage"
+          },
+          {
+            "entranceCode": 14,
+            "entranceName": "省电消息",
+            "entranceAlter": "pluginMessage"
+          },
+          {
+            "entranceCode": 15,
+            "entranceName": "清理弹窗",
+            "entranceAlter": "cleaningPopup"
+          },
+          {
+            "entranceCode": 16,
+            "entranceName": "加速弹窗",
+            "entranceAlter": "accelaratePopup"
+          },
+          {
+            "entranceCode": 17,
+            "entranceName": "杀毒弹窗",
+            "entranceAlter": "antivirusPopup"
+          },
+          {
+            "entranceCode": 18,
+            "entranceName": "应用卸载弹窗",
+            "entranceAlter": "UninstallationPopup"
+          },
+          {
+            "entranceCode": 19,
+            "entranceName": "省电弹窗",
+            "entranceAlter": "pluginPopup"
+          },
+          {
+            "entranceCode": 20,
+            "entranceName": "清理Toast",
+            "entranceAlter": "cleaningToast"
+          },
+          {
+            "entranceCode": 21,
+            "entranceName": "加速Toast",
+            "entranceAlter": "accelarateToast"
+          },
+          {
+            "entranceCode": 22,
+            "entranceName": "CPU降温Toast",
+            "entranceAlter": "cpuCoolingToast"
+          },
+          {
+            "entranceCode": 23,
+            "entranceName": "应用管理Toast",
+            "entranceAlter": "ManagementToast"
+          }
+        ]
+      }
+    },
+    {
+      "url": "/pjCodeapps/apps/versionAndModules",
+      "desc": "APPS-手机助手各模块概览-版本和模块",
+      "regex": true,
+      "method": "GET",
+      "req": {
+        "date": "2016-10-10"
+      },
+      "mock": true,
+      "delay": 1000,
+      "res": {
+        "code": 200,
+        "msg": "Get device enabled chart data",
+        "data": {
+          "version": [
+            {
+              "versionCode": 1,
+              "versionName": "All"
+            },
+            {
+              "versionCode": 2,
+              "versionName": "在下坂本，有何贵干"
+            },
+            {
+              "versionCode": 3,
+              "versionName": "在中坂本，有何贵干"
+            },
+            {
+              "versionCode": 4,
+              "versionName": "在上坂本，有何贵干"
+            }
+          ],
+          "module": [
+            {
+              "channelCode": 1,
+              "channelName": "清理"
+            },
+            {
+              "channelCode": 2,
+              "channelName": "加速"
+            },
+            {
+              "channelCode": 3,
+              "channelName": "杀毒"
+            },
+            {
+              "channelCode": 4,
+              "channelName": "CPU降温"
+            },
+            {
+              "channelCode": 5,
+              "channelName": "省电"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "url": "/pjCodeapps/apps/adsValue",
+      "desc": "APPS-广告概览",
+      "regex": true,
+      "method": "GET",
+      "req": {
+        "date": "2016-10-10"
+      },
+      "mock": true,
+      "delay": 1000,
+      "res": {
+        "code": 200,
+        "msg": "Get device enabled chart data",
+        "data": {
+          "ads": [
+            {
+              "adsNum": 1,
+              "adsName": "All",
+              "adsCode": "all"
+            },
+            {
+              "adsNum": 2,
+              "adsName": "垃圾清理结果页",
+              "adsCode": "clean"
+            },
+            {
+              "adsNum": 3,
+              "adsName": "加速结果页",
+              "adsCode": "boost"
+            },
+            {
+              "adsNum": 4,
+              "adsName": "杀毒结果页",
+              "adsCode": "antivirus"
+            },
+            {
+              "adsNum": 5,
+              "adsName": "CPU降温页",
+              "adsCode": "cooler"
+            },
+            {
+              "adsNum": 6,
+              "adsName": "垃圾清理结果页插屏广告",
+              "adsCode": "clean_pop"
+            },
+            {
+              "adsNum": 7,
+              "adsName": "加速结果页插屏广告",
+              "adsCode": "boost_pop"
+            },
+            {
+              "adsNum": 8,
+              "adsName": "杀毒结果页插屏广告",
+              "adsCode": "antivirus_pop"
+            },
+            {
+              "adsNum": 9,
+              "adsName": "CPU降温结果页插屏广告",
+              "adsCode": "cooler_pop"
+            },
+            {
+              "adsNum": 10,
+              "adsName": "Feature页",
+              "adsCode": "feature"
+            },
+            {
+              "adsNum": 11,
+              "adsName": "详情页",
+              "adsCode": "detail"
+            },
+            {
+              "adsNum": 12,
+              "adsName": "Feature弹窗页",
+              "adsCode": "feature_pop"
+            },
+            {
+              "adsNum": 13,
+              "adsName": "详情页弹窗",
+              "adsCode": "detail_pop"
+            },
+            {
+              "adsNum": 14,
+              "adsName": "省电结果页",
+              "adsCode": "saver"
+            },
+            {
+              "adsNum": 15,
+              "adsName": "省电结果页插屏广告",
+              "adsCode": "saver_pop"
+            },
+            {
+              "adsNum": 16,
+              "adsName": "软件管理插屏广告",
+              "adsCode": "manager_pop"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "url": "/pjCodeapps/apps/phoneAssistant/getCleaningModule",
+      "regex": true,
+      "desc": "获取 APPS - 手机助手概览 - 各模块数据 - 清理模块数据",
+      "method": "GET",
+      "delay": 1000,
+      "req": {
+        "date": "2016-10-10",
+        "version": "版本",
+        "module": "all",
+        "country": "all",
+        "area": "all",
+        "dateFrom": "2016-03-17",
+        "dateTo": "2016-03-17"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data": {
+          "tableData|7-60": [
+            [
+              "2016-8-23",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%"
+            ],
+            [
+              "2016-8-22",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "url": "/pjCodeapps/apps/phoneAssistant/getAccelarateModule",
+      "regex": true,
+      "desc": "获取 APPS - 手机助手概览 - 各模块数据 - 加速模块数据",
+      "method": "GET",
+      "delay": 1000,
+      "req": {
+        "date": "2016-10-10",
+        "country": "all",
+        "area": "all",
+        "module": "all",
+        "version": "版本",
+        "dateFrom": "2016-03-17",
+        "dateTo": "2016-03-17"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data": {
+          "tableData|7-60": [
+            [
+              "2016-8-23",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%"
+            ],
+            [
+              "2016-8-22",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "url": "/pjCodeapps/apps/phoneAssistant/getAntiVirusModule",
+      "regex": true,
+      "desc": "获取 APPS - 手机助手概览 - 各模块数据 - 杀毒模块数据",
+      "method": "GET",
+      "delay": 1000,
+      "req": {
+        "date": "2016-10-10",
+        "country": "all",
+        "area": "all",
+        "module": "all",
+        "version": "版本",
+        "dateFrom": "2016-03-17",
+        "dateTo": "2016-03-17"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data": {
+          "tableData|7-60": [
+            [
+              "2016-8-23",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%"
+            ],
+            [
+              "2016-8-22",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "url": "/pjCodeapps/apps/phoneAssistant/getCPUCoolingModule",
+      "regex": true,
+      "desc": "获取 APPS - 手机助手概览 - 各模块数据 - CPU降温模块数据",
+      "method": "GET",
+      "delay": 1000,
+      "req": {
+        "date": "2016-10-10",
+        "country": "all",
+        "area": "all",
+        "module": "all",
+        "version": "版本",
+        "dateFrom": "2016-03-17",
+        "dateTo": "2016-03-17"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data": {
+          "tableData|7-60": [
+            [
+              "2016-8-23",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%"
+            ],
+            [
+              "2016-8-22",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "url": "/pjCodeapps/apps/phoneAssistant/getBatterySaverModule",
+      "regex": true,
+      "desc": "获取 APPS - 手机助手概览 - 各模块数据 - 省电模块数据",
+      "method": "GET",
+      "req": {
+        "date": "2016-10-10",
+        "country": "all",
+        "area": "all",
+        "module": "all",
+        "version": "版本",
+        "dateFrom": "2016-03-17",
+        "dateTo": "2016-03-17"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data": {
+          "tableData|7-60": [
+            [
+              "2016-8-23",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%"
+            ],
+            [
+              "2016-8-22",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,100)%"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "url": "/pjCodeapps/apps/phoneAssistant/getDataCleaningBranchEntrances",
+      "regex": true,
+      "desc": "获取 APPS - 手机助手概览 - 各模块入口数据 - 清理模块",
+      "method": "GET",
+      "delay": 1000,
+      "req": {
+        "date": "2016-10-10",
+        "country": "all",
+        "area": "all",
+        "module": "all",
+        "version": "版本",
+        "dateFrom": "2016-03-17",
+        "dateTo": "2016-03-17"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data": {
+          "tableData|7-60": [
+            [
+              "2016-8-23",
+              "加速完成页",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-8-23",
+              "一键加速完成页",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-8-23",
+              "清理桌面Icon",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-8-23",
+              "助手页",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-8-23",
+              "常驻通知栏",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "url": "/pjCodeapps/apps/phoneAssistant/getDataAccelerateBranchEntrances",
+      "regex": true,
+      "desc": "获取 APPS - 手机助手概览 - 各模块入口数据 - 加速模块数据",
+      "method": "GET",
+      "delay": 1000,
+      "req": {
+        "date": "2016-10-10",
+        "country": "all",
+        "area": "all",
+        "module": "all",
+        "version": "版本",
+        "dateFrom": "2016-03-17",
+        "dateTo": "2016-03-17"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data": {
+          "tableData|7-60": [
+            [
+              "2016-8-23",
+              "加速完成页",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-8-23",
+              "一键加速完成页",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-8-23",
+              "清理桌面Icon",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-8-23",
+              "助手页",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-8-23",
+              "常驻通知栏",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "url": "/pjCodeapps/apps/phoneAssistant/getDataAntivirusBranchEntrances",
+      "regex": true,
+      "desc": "获取 APPS - 手机助手概览 - 各模块入口数据 - 杀毒模块数据",
+      "method": "GET",
+      "delay": 1000,
+      "req": {
+        "date": "2016-10-10",
+        "country": "all",
+        "area": "all",
+        "module": "all",
+        "version": "版本",
+        "dateFrom": "2016-03-17",
+        "dateTo": "2016-03-17"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data": {
+          "tableData|7-60": [
+            [
+              "2016-8-23",
+              "加速完成页",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-8-23",
+              "一键加速完成页",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-8-23",
+              "清理桌面Icon",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-8-23",
+              "助手页",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-8-23",
+              "常驻通知栏",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "url": "/pjCodeapps/apps/phoneAssistant/getDataCPUCoolingBranchEntrances",
+      "regex": true,
+      "desc": "获取 APPS - 手机助手概览 - 各模块入口数据 - CPU降温模块数据",
+      "method": "GET",
+      "delay": 1000,
+      "req": {
+        "date": "2016-10-10",
+        "country": "all",
+        "area": "all",
+        "module": "all",
+        "version": "版本",
+        "dateFrom": "2016-03-17",
+        "dateTo": "2016-03-17"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data": {
+          "tableData|7-60": [
+            [
+              "2016-8-23",
+              "加速完成页",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-8-23",
+              "一键加速完成页",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-8-23",
+              "清理桌面Icon",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-8-23",
+              "助手页",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-8-23",
+              "常驻通知栏",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "url": "/pjCodeapps/apps/phoneAssistant/getDataChargeBranchEntrances",
+      "regex": true,
+      "desc": "获取 APPS - 手机助手概览 - 各模块入口数据 - CPU降温模块数据",
+      "method": "GET",
+      "delay": 1000,
+      "req": {
+        "date": "2016-10-10",
+        "country": "all",
+        "area": "all",
+        "module": "all",
+        "version": "版本",
+        "dateFrom": "2016-03-17",
+        "dateTo": "2016-03-17"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data": {
+          "tableData|7-60": [
+            [
+              "2016-4-23",
+              "加速完成页",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-4-23",
+              "一键加速完成页",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-4-23",
+              "清理桌面Icon",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-4-23",
+              "助手页",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ],
+            [
+              "2016-4-23",
+              "常驻通知栏",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)%"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "url": "/pjCodeapps/apps/overview/coredata",
+      "desc": "获取概览-核心数据表格数据",
+      "regex": true,
+      "method": "GET",
+      "req": {
+        "date": "2016-10-10",
+        "country": "all",
+        "channel": "all",
+        "area": "all",
+        "version": "all",
+        "dateFrom": "2016-03-17",
+        "dateTo": "2016-03-17"
+      },
+      "mock": true,
+      "delay": 1000,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data|7-60": [
+          {
+            "date": "@datetime('yyyy-MM-dd')",
+            "accumulatedUserSum": "@integer(0, 1)",
+            "dailyDownload": "@integer(1, 2)",
+            "dailyUpdate": "@integer(2, 3)",
+            "dailyInstallation": "@integer(3, 4)",
+            "monthlyActive": "@integer(4, 5)",
+            "dailyFrontActivePerson": "@integer(5, 6)",
+            "dailyBackActivePerson": "@integer(6, 7)",
+            "dailyDivideMonthly": "@integer(7, 8)%",
+            "dailyDivideDailyBackVitality": "@integer(8, 9)%",
+            "dailyLaunchNum": "@integer(1, 10)",
+            "dailyAvgLaunchNum": "@integer(11, 12)",
+            "remainingNextDay": "@integer(12, 13)",
+            "remainingSevenDay": "@integer(13, 14)"
+          }
+        ]
+      }
+    },
+    {
+      "url": "/pjCodeapps/apps/entrance/alldata",
+      "desc": "获取 入口数据-入口整体数据 的表格数据",
+      "regex": true,
+      "method": "GET",
+      "req": {
+        "date": "2016-10-10",
+        "version": "all",
+        "country": "all",
+        "dateFrom": "2016-03-17",
+        "dateTo": "2016-03-17"
+      },
+      "mock": true,
+      "delay": 1000,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data|7-60": [
+          {
+            "date": "@datetime('yyyy-MM-dd')",
+            "notificationBar": "@integer(0, 1000)",
+            "permanentBar": "@integer(0, 5000)",
+            "desktopPopup": "@integer(0, 5000)",
+            "desktopToast": "@integer(0, 1000)",
+            "desktopShortcut": "@integer(0, 1000)",
+            "push": "@integer(0, 1000)",
+            "normal": "@integer(0, 1000)",
+            "update": "@integer(0, 1000)",
+            "intervalValue": "@integer(0, 1000)",
+            "others": "@integer(0, 2000)"
+          }
+        ]
+      }
+    },
+    {
+      "url": "/pjCodeapps/apps/assistant/phonealldata",
+      "desc": "获取 手机助手概览 - 整体数据 的表格数据",
+      "regex": true,
+      "method": "GET",
+      "req": {
+        "date": "2016-10-10",
+        "version": "all",
+        "area": "all",
+        "channel": "all",
+        "country": "all",
+        "dateFrom": "2016-03-17",
+        "dateTo": "2016-03-17"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data|7-60": [
+          {
+            "date": "@datetime('yyyy-MM-dd')",
+            "frontendActivePerson": "@integer(0, 1000)",
+            "frontendActiveCount": "@integer(0, 5000)",
+            "enterScanningCount": "@integer(0, 5000)",
+            "enterScanningAverage": "@integer(0, 1000)",
+            "resultPageCount": "@integer(0, 1000)",
+            "resultPageRatio": "@integer(0, 1000)",
+            "SumupCount": "@integer(0, 1000)"
+          }
+        ]
+      }
+    },
+    {
+      "url": "/pjCodeapps/apps/assistant/getChartData",
+      "desc": "获取入口数据 - 入口整体数据 中的chart图数据",
+      "method": "GET",
+      "req": {
+        "date": "2016-10-10",
+        "version": "all",
+        "country": "all",
+        "area": "all",
+        "channel": "all",
+        "dateFrom": "2016-03-17",
+        "dateTo": "2016-03-17"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get app count chart data",
+        "data": {
+          "xAxis": {
+            "name": "Date",
+            "data|14": [
+              "@datetime('yyyy-MM-dd')"
+            ]
+          },
+          "series": [
+            {
+              "name": "通知栏通知",
+              "data|14": [
+                "@integer(1000000, 1500000)"
+              ],
+              "showArea": true,
+              "showSymbol": false
+            },
+            {
+              "name": "常驻栏通知",
+              "data|14": [
+                "@integer(1000000, 1500000)"
+              ],
+              "showArea": true,
+              "showSymbol": false
+            },
+            {
+              "name": "桌面弹窗",
+              "data|14": [
+                "@integer(10000, 50000)"
+              ],
+              "showArea": true,
+              "showSymbol": false
+            },
+            {
+              "name": "桌面Toast",
+              "data|14": [
+                "@integer(10000, 50000)"
+              ],
+              "showArea": true,
+              "showSymbol": false
+            },
+            {
+              "name": "桌面快捷方式",
+              "data|14": [
+                "@integer(100000, 1000000)"
+              ],
+              "showArea": true,
+              "showSymbol": false
+            },
+            {
+              "name": "Push",
+              "data|14": [
+                "@integer(100000, 1000000)"
+              ],
+              "showArea": true,
+              "showSymbol": false
+            },
+            {
+              "name": "Normal",
+              "data|14": [
+                "@integer(800000, 1000000)"
+              ],
+              "showArea": true,
+              "showSymbol": false
+            },
+            {
+              "name": "Update",
+              "data|14": [
+                "@integer(100000, 150000)"
+              ],
+              "showArea": true,
+              "showSymbol": false
+            },
+            {
+              "name": "内部带量",
+              "data|14": [
+                "@integer(10000, 1000000)"
+              ],
+              "showArea": true,
+              "showSymbol": false
+            },
+            {
+              "name": "其他",
+              "data|14": [
+                "@integer(10000, 1000000)"
+              ],
+              "showArea": true,
+              "showSymbol": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "url": "/pjCodeapps/apps/ads/overview",
+      "desc": "获取 广告概览 的表格数据",
+      "regex": true,
+      "method": "GET",
+      "req": {
+        "date": "2016-10-10",
+        "country": "all",
+        "ads": "all",
+        "version": "all",
+        "dateFrom": "2016-03-17",
+        "dateTo": "2016-03-17"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data|7-60": [
+          {
+            "date": "@datetime('yyyy-MM-dd')",
+            "frontActivePerson": "@integer(0, 1000)",
+            "adsAskCount": "@integer(0, 5000)",
+            "askSucceedCount": "@integer(0, 5000)",
+            "askSucceedRatio": "@integer(0, 1000)",
+            "businessPV": "@integer(0, 1000)",
+            "showSucceedCount": "@integer(0, 1000)",
+            "showSucceedRatio": "@integer(0, 1000)",
+            "adsClickCount": "@integer(0, 1000)",
+            "clickRatio": "@integer(0, 1000)"
+          }
+        ]
+      }
+    },
+    {
+      "url": "/[^/]+/apps/(newUser|activeUser)/overview",
+      "desc": "Apps - 用户分析 - 活跃用户/新增用户",
+      "regex": true,
+      "method": "GET",
+      "req": {
+        "date": "2016-10-10",
+        "area": "All",
+        "country": "All",
+        "version": "All",
+        "channel": "All"
+      },
+      "mock": true,
+      "delay": 1000,
+      "res": {
+        "code": 200,
+        "msg": "Get device enabled chart data",
+        "data": {
+          "yesterday": 154,
+          "past7": 123,
+          "yestPast7": "12.52%",
+          "past30": 1234,
+          "yestPast30": "3%"
+        }
+      }
+    },
+    {
+      "url": "/[^/]+/apps/(newUser|activeUser|silenceUser)/(model|softwareVersion)",
+      "desc": "APPS - 用户分析 - 活跃用户 -获取(手机版本|软件版本|活跃用户占累计用户比例)饼图",
+      "regex": true,
+      "method": "GET",
+      "req": {
+        "date": "2016-10-10",
+        "area": "All",
+        "country": "All",
+        "version": "All",
+        "channel": "All"
+      },
+      "mock": true,
+      "delay": 1000,
+      "res": {
+        "code": 200,
+        "msg": "Get device enabled chart data",
+        "data": {
+          "series": [
+            {
+              "name": "Count",
+              "data": [
+                {
+                  "value": "@integer(1, 1000000)",
+                  "name": "5.6.1.007"
+                },
+                {
+                  "value": "@integer(1, 1000000)",
+                  "name": "3234k"
+                },
+                {
+                  "value": "@integer(1, 1000000)",
+                  "name": "1.3"
+                },
+                {
+                  "value": "@integer(1, 1000000)",
+                  "name": "1.4"
+                },
+                {
+                  "value": "@integer(1, 1000000)",
+                  "name": "1.5"
+                },
+                {
+                  "value": "@integer(1, 1000000)",
+                  "name": "1.6"
+                },
+                {
+                  "value": "@integer(1, 1000000)",
+                  "name": "1.7"
+                },
+                {
+                  "value": "@integer(1, 1000000)",
+                  "name": "1.8"
+                },
+                {
+                  "value": "@integer(1, 1000000)",
+                  "name": "1.9"
+                },
+                {
+                  "value": "@integer(1, 1000000)",
+                  "name": "Others"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "url": "/[^/]+/apps/(newUser|activeUser|silenceUser)/(newActiveUserRatio|activeAccumulativeUserRatio)",
+      "desc": "APPS - 用户分析 - 活跃用户 -获取活跃用户占累计用户比例 饼图",
+      "regex": true,
+      "method": "GET",
+      "req": {
+        "date": "2016-10-10",
+        "area": "All",
+        "country": "All",
+        "version": "All",
+        "channel": "All"
+      },
+      "mock": true,
+      "delay": 1000,
+      "res": {
+        "code": 200,
+        "msg": "Get device enabled chart data",
+        "data": {
+          "series": [
+            {
+              "name": "Count",
+              "data": [
+                {
+                  "value": "@integer(1, 1000)",
+                  "name": "1"
+                },
+                {
+                  "value": "@integer(1, 1000)",
+                  "name": "Others"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "url": "/[^/]+/apps/activeUser/getOverviewUsageCount",
+      "regex": true,
+      "desc": "APPS - 用户分析 - 活跃用户 - 各模块使用人数概览",
+      "method": "GET",
+      "delay": 1000,
+      "req": {
+        "date": "2016-10-10",
+        "country": "all",
+        "area": "all",
+        "channel": "all",
+        "version": "版本"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data|7-60": [
+          {
+            "date": "@datetime('yyyy-MM-dd')",
+            "frontVitalityCount": "@integer(0, 1000)",
+            "cleanCount": "@integer(0, 5000)",
+            "pushupCount": "@integer(0, 5000)",
+            "antivirusCount": "@integer(0, 1000)",
+            "powersavingCount": "@integer(0, 1000)",
+            "downloadCount": "@integer(0, 1000)",
+            "updateCount": "@integer(0, 1000)"
+          }
+        ]
+      }
+    },
+    {
+      "url": "/apps/store/source",
+      "desc": "搜索框 - 商店来源 数据",
+      "regex": true,
+      "method": "GET",
+      "req": {
+        "date": "2016-10-10"
+      },
+      "mock": true,
+      "delay": 1000,
+      "res": {
+        "code": 200,
+        "msg": "Get Store Source data",
+        "data": {
+          "store": [
+            {
+              "storeCode": 1,
+              "storeName": "All"
+            },
+            {
+              "storeCode": 2,
+              "storeName": "合作方"
+            },
+            {
+              "storeCode": 3,
+              "storeName": "Google Play"
+            },
+            {
+              "storeCode": 4,
+              "storeName": "第三方应用市场"
+            },
+            {
+              "storeCode": 5,
+              "storeName": "TCL第三方应用市场"
+            },
+            {
+              "storeCode": 6,
+              "storeName": "第三方跳转"
+            },
+            {
+              "storeCode": 7,
+              "storeName": "Hawk"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "url": "/apps/search/word/type",
+      "desc": "搜索框 - 搜索词类型 数据",
+      "regex": true,
+      "method": "GET",
+      "req": "",
+      "mock": true,
+      "delay": 1000,
+      "res": {
+        "code": 200,
+        "msg": "Get Store Source data",
+        "data": {
+          "word": [
+            {
+              "wordCode": 1,
+              "wordName": "All",
+              "wordTitle": "All"
+            },
+            {
+              "wordCode": 2,
+              "wordName": "search_words",
+              "wordTitle": "搜索词"
+            },
+            {
+              "wordCode": 3,
+              "wordName": "search_hot",
+              "wordTitle": "搜索热词"
+            },
+            {
+              "wordCode": 4,
+              "wordName": "search_recommend",
+              "wordTitle": "为你推荐"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "url": "/apps/resource/stastics/getMainTableData",
+      "regex": true,
+      "desc": "Apps - 资源统计 - 资源名称 - 数据明细表格 - (资源名称主页面表格)",
+      "method": "GET",
+      "delay": 1000,
+      "req": {
+        "date": "2016-10-10",
+        "area": "all",
+        "version": "all",
+        "softwareSource": "all",
+        "resourceName": "all",
+        "packageName": "all"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data|5": [
+          {
+            "softwareName": "Google",
+            "downloadRequest": "@integer(0, 5000)",
+            "downloadCount": "@integer(0, 5000)",
+            "updateRequest": "@integer(0, 1000)",
+            "updateCount": "@integer(0, 1000)",
+            "installationCount": "@integer(0, 1000)"
+          }
+        ]
+      }
+    },
+    {
+      "url": "/apps/resource/stastics/getCountryDetailData",
+      "regex": true,
+      "desc": "Apps - 资源统计 - 资源名称 - 国家明细表格",
+      "method": "GET",
+      "delay": 1000,
+      "req": {
+        "softwareSource": "all",
+        "version": "all",
+        "area": "all",
+        "softwareName": "@string()",
+        "date": "2016-10-10"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data": {
+          "tableData|40": [
+            [
+              "Brazil",
+              "Portuguese",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,10)"
+            ],
+            [
+              "Brazil",
+              "Portuguese",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)"
+            ],
+            [
+              "Brazil",
+              "Portuguese",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "url": "/apps/resource/push/stastics/getMainPageTabledata",
+      "regex": true,
+      "desc": "Apps - 资源统计 - Push统计 - 数据明细表格 - (Push统计主页面表格)",
+      "method": "GET",
+      "delay": 1000,
+      "req": {
+        "date": "2016-10-10",
+        "from": "2018-10-10",
+        "to": "2018-11-10",
+        "version": "all",
+        "pushID": "all"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data|5-20": [
+          {
+            "pushID": "@integer(0, 5000)",
+            "downloadSendCount": "@integer(0, 5000)",
+            "downloadSuccessfulCount": "@integer(0, 1000)",
+            "analyzeSendCount": "@integer(0, 1000)",
+            "arrivedRatio": "@integer(0, 1000)",
+            "showCount": "@integer(0, 1000)",
+            "clickCount": "@integer(0, 1000)",
+            "clickRatio": "@integer(0, 1000)",
+            "deleteCount": "@integer(0, 1000)",
+            "deleteRatio": "@integer(0, 1000)",
+            "downloadRequest": "@integer(0, 1000)",
+            "downloadCount": "@integer(0, 1000)",
+            "downloadSuccessfulRatio": "@integer(0, 1000)"
+          }
+        ]
+      }
+    },
+    {
+      "url": "/apps/resource/push/stastics/getTitleDetaildata",
+      "regex": true,
+      "desc": "Apps - 资源统计 - Push统计 - 标题明细表格",
+      "method": "GET",
+      "delay": 1000,
+      "req": {
+        "from": "2018-10-10",
+        "to": "2018-11-10",
+        "version": "all",
+        "pushID": "all"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data|5-20": [
+          {
+            "pushID": "@integer(0, 1000)",
+            "application": "@string()",
+            "downloadCount": "@integer(0, 1000)"
+          }
+        ]
+      }
+    },
+    {
+      "url": "/apps/resource/push/stastics/getVersionDetaildata",
+      "regex": true,
+      "desc": "Apps - 资源统计 - Push统计 - 版本明细表格",
+      "method": "GET",
+      "req": {
+        "from": "2018-10-10",
+        "to": "2018-11-10",
+        "version": "all",
+        "pushID": "all"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data|50": [
+          {
+            "pushID": "@integer(1, 1)",
+            "version": "@integer(2, 2)",
+            "downloadSuccessfulCount": "@integer(3, 3)",
+            "analyzeSendCount": "@integer(4, 4)",
+            "showCount": "@integer(5, 5)",
+            "clickCount": "@integer(6, 6)",
+            "clickRatio": "@integer(7, 7)",
+            "deleteCount": "@integer(8, 8)",
+            "deleteRatio": "@integer(9, 9)",
+            "downloadRequest": "@integer(10, 10)",
+            "downloadCount": "@integer(11, 11)",
+            "downloadSuccessfulRatio": "@integer(12, 12)"
+          }
+        ]
+      }
+    },
+    {
+      "url": "/apps/resource/stastics/(getApplicationCountdata|getVideoGameData)",
+      "regex": true,
+      "desc": "Apps - 资源统计 - 资源分类 - (应用下载量|游戏下载量)",
+      "method": "GET",
+      "req": {
+        "date": "2016-10-10",
+        "countryname": "All",
+        "softwareSource": "All"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data": {
+          "xAxis": {
+            "name": "Date",
+            "data|12": [
+              "@string()"
+            ]
+          },
+          "series": [
+            {
+              "name": "Count",
+              "data|12": [
+                "@integer(0, 1000000)"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "url": "/apps/user/information/country/detail",
+      "regex": true,
+      "desc": "Apps - 用户信息 - 国家信息",
+      "method": "GET",
+      "req": {
+        "from": "2018-10-10",
+        "to": "2018-11-10",
+        "area": "all",
+        "country": "all",
+        "version": "all"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data|50": [
+          {
+            "country": "@word(5)",
+            "area": "@word(5)",
+            "frontendActive": "@integer(3, 3)",
+            "downloadCount": "@integer(4, 4)",
+            "installCount": "@integer(5, 5)",
+            "updateCount": "@integer(6, 6)"
+          }
+        ]
+      }
+    },
+    {
+      "url": "/apps/user/behavior/search/detail",
+      "regex": true,
+      "desc": "Apps - 用户行为 - 搜索行为 - 数据明细",
+      "method": "GET",
+      "req": {
+        "from": "2018-10-10",
+        "to": "2018-11-10",
+        "area": "all",
+        "searchWord": "all",
+        "wordType": "all",
+        "country": "all",
+        "version": "all"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data|50": [
+          {
+            "words": "@word(5)",
+            "times": "@integer(1, 6000000)"
+          }
+        ]
+      }
+    },
+    {
+      "url": "/apps/page/behavior/(independent|download)/ratio",
+      "desc": "APPS - 用户行为 - 页面行为 -获取(独立用户数占比|下载完成占比)饼图",
+      "regex": true,
+      "method": "GET",
+      "req": {
+        "from": "2017-10-10",
+        "to": "2018-11-10",
+        "area": "All",
+        "country": "All",
+        "version": "All",
+        "channel": "All"
+      },
+      "mock": true,
+      "delay": 1000,
+      "res": {
+        "code": 200,
+        "msg": "Get Piechart data",
+        "data": {
+          "series": [
+            {
+              "name": "Count",
+              "data": [
+                {
+                  "value": "@integer(1, 1000000)",
+                  "name": "SpecialActivity"
+                },
+                {
+                  "value": "@integer(1, 1000000)",
+                  "name": "SearchActivity"
+                },
+                {
+                  "value": "@integer(1, 1000000)",
+                  "name": "FeaturedFragment"
+                },
+                {
+                  "value": "@integer(1, 1000000)",
+                  "name": "F_EssentialEquipmentActivity"
+                },
+                {
+                  "value": "@integer(1, 1000000)",
+                  "name": "GameFragment"
+                },
+                {
+                  "value": "@integer(1, 1000000)",
+                  "name": "Others"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "url": "/apps/user/behavior/page/table",
+      "regex": true,
+      "desc": "Apps - 用户行为 - 页面行为 - 表格",
+      "method": "GET",
+      "req": {
+        "from": "2017-10-10",
+        "to": "2018-11-10",
+        "area": "All",
+        "country": "All",
+        "version": "All",
+        "channel": "All"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data|50": [
+          {
+            "page": "@word(5)",
+            "PV": "@integer(1, 6000000)",
+            "userCount": "@integer(1, 6000000)",
+            "downloadRequest": "@integer(1, 6000000)",
+            "downloadFinish": "@integer(1, 6000000)",
+            "updateRequest": "@integer(1, 6000000)",
+            "updateFinish": "@integer(1, 6000000)",
+            "avgDownloadCount": "@float(0,1)",
+            "downloadSuccessRatio": "@integer(1, 6000000)%",
+            "updateSuccessRatio": "@integer(1, 6000000)%"
+          }
+        ]
+      }
+    },
+    {
+      "url": "/apps/user/behavior/page/detail",
+      "regex": true,
+      "desc": "Apps - 用户行为 - 页面行为 - 数据明细表格",
+      "method": "GET",
+      "req": {
+        "from": "2017-10-10",
+        "to": "2018-11-10",
+        "area": "All",
+        "country": "All",
+        "version": "All",
+        "channel": "All",
+        "page": "All"
+      },
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data": {
+          "tableData|40": [
+            [
+              "SpecialActivity",
+              "5.5.1",
+              "@word(5)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,10)"
+            ],
+            [
+              "SpecialActivity",
+              "5.5.2",
+              "@word(5)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,10)"
+            ],
+            [
+              "SpecialActivity",
+              "5.5.3",
+              "@word(5)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,1000)",
+              "@integer(0,10)"
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "Demo（测试接口，废弃）": [
+    {
+      "url": "/wmd/address",
+      "desc": "获取一些IP地址",
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get address successfully.",
+        "data|0-10": [
+          "@ip()"
+        ]
+      }
+    },
+    {
+      "url": "/wmd/config",
+      "desc": "保存配置",
+      "mock": true,
+      "delay": 1000,
+      "res": {
+        "code": "@pick([200, 500])",
+        "msg": "There is a 50% chance of failure, pls try again",
+        "data": [
+          "Save config successfully"
+        ]
+      }
+    },
+    {
+      "url": "/wmd/chartData",
+      "desc": "获取表格数据",
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Get data success",
+        "data": {
+          "xAxis": {
+            "data|20": [
+              "@city()"
+            ]
+          },
+          "series": [
+            {
+              "name": "销量1",
+              "data|20": [
+                "@integer(1, 100)"
+              ]
+            },
+            {
+              "name": "销量2",
+              "data|20": [
+                "@integer(1, 100)"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "url": "/",
+      "desc": "Index",
+      "mock": true,
+      "res": {
+        "code": 200,
+        "msg": "Hi, this is mock server.",
+        "data": ""
+      }
+    }
+  ]
+}
